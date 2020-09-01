@@ -29,7 +29,9 @@
 }
 
 .main {
-  min-height: 100vh;
+  /* height: 100vmin; */
+  text-align: center;
+  /* background-image: url("./images/Abstract-Background.png") */
 }
 
 #navbar-div {
@@ -90,9 +92,10 @@
   padding: 1vh;
   display: flex;
   justify-content: space-around;
-  position: fixed;
+  
   left: 0;
   bottom: 0;
+  
   width: 100%;
 }
 
@@ -104,4 +107,28 @@
 .footer-img {
   height: 25px;
   
+}
+
+#home-container {
+  border: 1px solid black;
+  
+}
+
+#resume-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding-top: 80%;
+}
+
+#resume {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }

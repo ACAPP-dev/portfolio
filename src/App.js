@@ -14,13 +14,14 @@ class App extends React.Component {
         
         <Router>
           < NavBarContainer />
-          < FooterContainer />
+          
           <div className='main'>
-            <h1>Andrew's Portfolio Website</h1>
+            
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/resume' component={Resume} />
           </div>
+          < FooterContainer />
         </Router>
       </div>
     );
