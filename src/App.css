@@ -41,12 +41,26 @@
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
-.navbar-span {
+.navbar {
   border: 1px solid lightsalmon;
   padding: 2px;
-  margin: 2px;
+  margin: auto;
   background: lightsalmon;
   border-radius: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-name {
+  border: 1px solid magenta;
+  padding: 2px;
+  margin: auto;
+  background: magenta;
+  border-radius: 25px;
+}
+
+.navbar-active {
+  background: yellow;
 }
 
 #sidebar-div {
