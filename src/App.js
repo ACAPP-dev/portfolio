@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 import NavBarContainer from './containers/NavBarContainer'
-import SideBarContainer from './containers/SideBarContainer'
 import FooterContainer from './containers/FooterContainer'
 
 class App extends React.Component {
@@ -12,12 +12,11 @@ class App extends React.Component {
     return (
       <div className="App">
         < NavBarContainer />
-        < SideBarContainer />
-        < FooterContainer />
+        
         <div className='main'>
           <h1>Andrew's Portfolio Website</h1>
         </div>
-        
+        < FooterContainer />
       </div>
     );
   }
