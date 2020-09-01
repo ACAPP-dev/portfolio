@@ -10,10 +10,10 @@ export default class FooterContainer extends React.Component {
         return(
             <div id='footer-div'>
                 
-                <a href='https://github.com/ACAPP-dev' className='footer'>
+                <a href='https://github.com/ACAPP-dev' className='footer' target='_blank' rel="noopener noreferrer">
                     <img className='footer-img' src={Github} alt='Github'/>
                 </a>
-                <a href='https://www.linkedin.com/in/acapp-web-dev' className='footer'>
+                <a href='https://www.linkedin.com/in/acapp-web-dev' className='footer' target='_blank' rel="noopener noreferrer">
                     <img className='footer-img' src={Linkedin} alt='Linkedin'/>
                 </a>
                 <a href='mailto: acapp909@gmail.com' className='footer'>
