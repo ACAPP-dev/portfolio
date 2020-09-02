@@ -4,7 +4,7 @@
 
 
 .main {
-  
+  padding: 5vh;
   text-align: center;
   /* background-image: url("./images/Abstract-Background.png") */
   min-height: 85vh;
@@ -14,6 +14,8 @@
   width: 100%;
   padding: 1vh;
   display: flex;
+  position: fixed;
+  top: 0;
   justify-content: space-around;
   background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
@@ -68,7 +70,7 @@
   padding: 1vh;
   display: flex;
   justify-content: space-around;
-  
+  position: fixed;
   left: 0;
   bottom: 0;
   
@@ -98,7 +100,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 1000px;
+  height: 85vh;
   
 }
 
@@ -114,4 +116,15 @@
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 89vh;
 }
