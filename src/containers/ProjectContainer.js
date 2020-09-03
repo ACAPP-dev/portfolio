@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
-import Stocks from '../components/projects/Stocks'
+
+import Stocks from '../components/projects/stocks/Stocks'
 
 export default class ProjectContainer extends React.Component {
 
