@@ -1,13 +1,13 @@
 .App {
-  
+  background-color: pink;
+  /* height: 100%; */
 }
 
 
-.main {
-  padding: 5vh;
+.main, #root {
   text-align: center;
   /* background-image: url("./images/Abstract-Background.png") */
-  min-height: 85vh;
+  /* height: 100%; */
 }
 
 #navbar-div {
@@ -73,8 +73,9 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  
   width: 100%;
+  height: 3vh;
+  background-color: white;
 }
 
 .footer {
@@ -93,22 +94,22 @@
 }
 
 #resume-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 85vh;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 5vh;
+  /* padding: 10vh; */
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* width: 95%; */
+  height: 100vh;
   
 }
 
 #resume {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   margin: 0;
   padding: 0;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   bottom: 0;
@@ -119,12 +120,11 @@
 }
 
 .project-container {
-  display: flex;
-  flex-direction: column;
-  margin: 2px;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 89vh;
+  padding: 5vh;
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 5vh;
+  /* height: 85vh; */
+
+  
 }
