@@ -1,13 +1,25 @@
 import React from 'react'
-
+import Cards from '../components/projects/Cards'
 import Stocks from '../components/projects/stocks/Stocks'
+import projectListing from '../components/projects/projectListing.json'
 
 export default class ProjectContainer extends React.Component {
 
+    state = {
+
+    }
+
+    generateCards = () => {
+        return projectListing.map(project => {
+           return < Cards key={project.id} project={project} /> 
+
+        })
+    }
+
     render() {
         return(
-            <div>
-                Use Individual Project components to render project info
+            <div className='project-container'>
+                {this.generateCards()}
                 < Stocks />
 
 

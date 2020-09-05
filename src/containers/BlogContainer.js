@@ -6,7 +6,6 @@ export default class BlogContainer extends React.Component {
     render() {
         return(
             <div>
-                Link to Medium to load my blogs...?
                 < Flatiron1 />
 
 

@@ -7,7 +7,8 @@
 .main, #root {
   text-align: center;
   /* background-image: url("./images/Abstract-Background.png") */
-  /* height: 100%; */
+  height: 100%;
+  margin: 0px;
 }
 
 #navbar-div {
@@ -49,15 +50,15 @@
   flex-direction: column;
   margin-left: 1vw;
   margin-top: 6vh;
-  width: 9vw;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
+  width: 20vw;
+  /* height: 100vh; */
+  /* position: fixed; */
+  /* z-index: 1; */
   padding-top: 5vh;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 10px;
+  /* top: 0; */
+  /* left: 0; */
+  /* overflow-x: hidden; */
+  /* padding-top: 10px; */
 
 }
 
@@ -125,6 +126,21 @@
   text-align: left;
   margin: 5vh;
   /* height: 85vh; */
+}
 
-  
+.card-div {
+  box-shadow: 0 4px 8px 0 lightskyblue;
+  text-align: center;
+}
+
+.card {
+  margin: 2em auto;
+  display: block;
+}
+
+.card-img {
+  width: 10vw;
+  height: 10vh;
+  display: block;
+  margin: 2em auto;
 }
