@@ -14,7 +14,6 @@ class Stocks extends React.Component {
         fetch(readmeText)
         .then(resp => resp.text())
         .then(text => {
-            console.log(text)
             this.setState({readme: text})
         })
 
