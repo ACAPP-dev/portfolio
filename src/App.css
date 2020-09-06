@@ -1,3 +1,7 @@
+h2 {
+  text-align: center;
+}
+
 .App {
   background-color: pink;
   /* height: 100%; */
@@ -131,6 +135,8 @@
 .card-div {
   box-shadow: 0 4px 8px 0 lightskyblue;
   text-align: center;
+  padding: 2px;
+  background-color: linen;
 }
 
 .card {
@@ -139,8 +145,8 @@
 }
 
 .card-img {
-  width: 10vw;
-  height: 10vh;
+  /* width: 50vw; */
+  height: 25vh;
   display: block;
   margin: 2em auto;
 }

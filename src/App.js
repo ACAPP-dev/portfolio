@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 import ProjectContainer from './containers/ProjectContainer'
 import BlogContainer from './containers/BlogContainer'
 import Stocks from './components/projects/stocks/Stocks'
+import Slots from './components/projects/slots/Slots'
 
 class App extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route exact path='/projects' component={ProjectContainer} />
             <Route exact path='/blog' component={BlogContainer} />
             <Route exact path='/projects/stocks' component={Stocks} />
+            <Route exact path='/projects/slots' component={Slots} />
           </div>
           < FooterContainer />
         </Router>

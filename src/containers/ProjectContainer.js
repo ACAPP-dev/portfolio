@@ -19,8 +19,8 @@ export default class ProjectContainer extends React.Component {
     render() {
         return(
             <div className='project-container'>
+                <h2>Project Listing</h2>
                 {this.generateCards()}
-                < Stocks />
 
 
             </div>

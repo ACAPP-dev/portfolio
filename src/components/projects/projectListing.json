@@ -1,10 +1,19 @@
 [{
     "id": "1",
     "name": "Stock Market Data Web App",
-    "picture": "need url",
-    "github": "https://acapp-dev.github.io/final_project_-_stock_market_app",
+    "description": "Problem: Most stock apps use standard time periods (day, week, month, year) to view stock price trends. This can make it difficult to spot and track price movement over short term periods. Solution: 'Andrew's Stock App' allows the user to view candlestick charts over custom time periods, create and maintain watchlists, and view stock price data over a user specified three day period.",
+    "picture": "./stocks/stocks_screenshot.png",
+    "github": "https://github.com/ACAPP-dev/stock-app.git",
     "video": "https://youtu.be/4omxv2ArO0c",
-    "directory": "/projects/stocks"
+    "directory": "./projects/stocks"
+},{
+    "id": "2",
+    "name": "Slot Machine Javascript Based Web App",
+    "description": "Play a 'realistic' slot machine using your browser.  This slot machine has much better odds than a traditional slot machine in Las Vegas.  See how high you can get your balance!",
+    "picture": "./slots/bag.png",
+    "github": "https://github.com/ACAPP-dev/slots.git",
+    "video": "https://youtu.be/9v5WjbOkbS4",
+    "directory": "/projects/slots"
 }
 ]
 
