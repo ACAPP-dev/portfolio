@@ -10,10 +10,34 @@
     "id": "2",
     "name": "Slot Machine Javascript Based Web App",
     "description": "Play a 'realistic' slot machine using your browser.  This slot machine has much better odds than a traditional slot machine in Las Vegas.  See how high you can get your balance!",
-    "picture": "./slots/bag.png",
+    "picture": "./slots/slots.png",
     "github": "https://github.com/ACAPP-dev/slots.git",
     "video": "https://youtu.be/9v5WjbOkbS4",
     "directory": "/projects/slots"
+},{
+    "id": "3",
+    "name": "Auto Dealer Website",
+    "description": "Website to view an auto dealer's vehicle inventory and make sales or service appointments at that dealership.",
+    "picture": "./auto-dealer/autodealer.png",
+    "github": "https://github.com/ACAPP-dev/auto-dealer.git",
+    "video": "https://youtu.be/GnppcsiBYc4",
+    "directory": "/projects/auto-dealer"
+},{
+    "id": "4",
+    "name": "Family Tree Web App",
+    "description": "Create your own family tree and view relationships using flexible and easy to use forms!",
+    "picture": "./familytree/familytree.png",
+    "github": "https://github.com/ACAPP-dev/familytree.git",
+    "video": "https://youtu.be/QYip6aQGmZc",
+    "directory": "/projects/familytree"
+},{
+    "id": "5",
+    "name": "Domain Search Using GoDaddy API",
+    "description": "This Ruby Gem will search godaddy.com for website domain availability and pricing using the GoDaddy Developer API. You can search for a specific domain name or get a list of domains related to any keyword. If you search for a specific domain and it is not available for purchase, a list of similar domain names will automatically appear.",
+    "picture": "./domain/domain.png",
+    "github": "https://github.com/ACAPP-dev/domain_project.git",
+    "video": "https://youtu.be/sNQJ21qADlw",
+    "directory": "/projects/domain"
 }
 ]
 

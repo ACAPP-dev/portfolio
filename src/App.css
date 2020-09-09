@@ -3,7 +3,7 @@ h2 {
 }
 
 .App {
-  background-color: pink;
+  background-color: rgb(140, 160, 177);
   /* height: 100%; */
 }
 
@@ -23,29 +23,30 @@ h2 {
   top: 0;
   justify-content: space-around;
   background-color: #2a2a72;
+  
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
 .navbar {
-  border: 1px solid lightsalmon;
+  /* border-right: 1px solid lightsalmon; */
   padding: 2px;
   margin: auto;
-  background: lightsalmon;
-  border-radius: 25px;
+  /* background: lightsalmon; */
+  /* border-radius: 25px; */
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navbar-name {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   padding: 2px;
   margin: auto;
-  background: magenta;
-  border-radius: 25px;
+  /* background: magenta; */
+  /* border-radius: 25px; */
 }
 
 .navbar-active {
-  background: yellow;
+  color: magenta;
 }
 
 #sidebar-div {
@@ -137,11 +138,14 @@ h2 {
   text-align: center;
   padding: 2px;
   background-color: linen;
+  margin: 1vh;
 }
 
 .card {
-  margin: 2em auto;
+  
   display: block;
+
+
 }
 
 .card-img {
@@ -149,4 +153,30 @@ h2 {
   height: 25vh;
   display: block;
   margin: 2em auto;
+}
+
+#about-img {
+  height: 20vh;
+}
+
+#about-div {
+  background-color: rgb(211, 201, 211);
+  padding-bottom: 1vh;
+}
+
+.about-p {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  padding-bottom: .5vh;;
+  text-align: justify;
+}
+
+#resume-link {
+  border: 2px solid whitesmoke;
+  border-radius: 3px;
+  box-shadow: grey 0 2px 5px;
+  color: black;
+  background: whitesmoke;
+  text-decoration: none;
+
 }

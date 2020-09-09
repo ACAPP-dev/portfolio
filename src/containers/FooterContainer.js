@@ -20,9 +20,9 @@ export default class FooterContainer extends React.Component {
                     <img className='footer-img' src={Email} alt="Email" />
                 </a>
             
-                <span className='footer'>Contact Info</span>
+                <span className='footer'>Email: acapp909@gmail.com</span>
 
-                <span className='footer'>Navigation Links</span>
+                {/* <span className='footer'>Navigation Links</span> */}
             </div>
         )
     }
