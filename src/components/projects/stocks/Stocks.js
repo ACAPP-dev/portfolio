@@ -2,8 +2,6 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import readmeText from './README.md'
 
-const input = '# This is a header\n\nAnd this is a paragraph'
-
 class Stocks extends React.Component {
 
     state = {

@@ -11,7 +11,7 @@ h2 {
 .main, #root {
   text-align: center;
   /* background-image: url("./images/Abstract-Background.png") */
-  height: 100%;
+  /* height: 100%; */
   margin: 0px;
 }
 
@@ -40,13 +40,21 @@ h2 {
 .navbar-name {
   /* border: 1px solid magenta; */
   padding: 2px;
-  margin: auto;
+  /* margin: auto; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* height: 2.5vh; */
   /* background: magenta; */
   /* border-radius: 25px; */
 }
 
+.navbar-span {
+  padding-left: .5vh;
+}
+
 .navbar-active {
-  color: magenta;
+  color: darkblue;
 }
 
 #sidebar-div {
@@ -102,7 +110,8 @@ h2 {
 #resume-container {
   /* display: flex;
   flex-direction: column; */
-  margin: 5vh;
+  /* margin: 5vh; */
+  padding-top: 2vh;
   /* padding: 10vh; */
   /* position: relative; */
   /* overflow: hidden; */
@@ -125,11 +134,15 @@ h2 {
   border: none;
 }
 
+.about-container {
+  padding-bottom: 4vh;
+}
+
 .project-container {
-  padding: 5vh;
-  padding-bottom: 20px;
+  /* padding: 5vh; */
+  padding-bottom: 4vh;
   text-align: left;
-  margin: 5vh;
+  /* margin: 5vh; */
   /* height: 85vh; */
 }
 
@@ -157,6 +170,8 @@ h2 {
 
 #about-img {
   height: 20vh;
+  border: 2px solid white;
+  border-radius: 3%;
 }
 
 #about-div {
@@ -179,4 +194,9 @@ h2 {
   background: whitesmoke;
   text-decoration: none;
 
+}
+
+.icon {
+  height: 2.5vh;
+  
 }
