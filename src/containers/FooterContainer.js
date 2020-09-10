@@ -22,7 +22,7 @@ export default class FooterContainer extends React.Component {
             
                 <span className='footer'>Email: acapp909@gmail.com</span>
 
-                {/* <span className='footer'>Navigation Links</span> */}
+                <span className='footer'>Last Updated: September 2020</span>
             </div>
         )
     }
