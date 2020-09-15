@@ -165,11 +165,11 @@ h2 {
   /* width: 50vw; */
   height: 25vh;
   display: block;
-  margin: 2em auto;
+  margin: auto;
 }
 
 #about-img {
-  height: 20vh;
+  height: 25vh;
   border: 2px solid white;
   border-radius: 3%;
 }
