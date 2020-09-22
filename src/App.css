@@ -3,7 +3,7 @@ h2 {
 }
 
 .App {
-  background-color: rgb(140, 160, 177);
+  background-color: black;
   /* height: 100%; */
 }
 
@@ -54,7 +54,7 @@ h2 {
 }
 
 .navbar-active {
-  color: darkblue;
+  color:black;
 }
 
 #sidebar-div {
@@ -107,11 +107,12 @@ h2 {
   
 }
 
-#resume-container {
+.resume-container {
   /* display: flex;
   flex-direction: column; */
   /* margin: 5vh; */
-  padding-top: 2vh;
+  padding-top: 2.5vh;
+  background-color: black;
   /* padding: 10vh; */
   /* position: relative; */
   /* overflow: hidden; */
@@ -135,11 +136,14 @@ h2 {
 }
 
 .about-container {
+  color: white;
+  padding-top: 2.5vh;
   padding-bottom: 4vh;
 }
 
 .project-container {
   /* padding: 5vh; */
+  padding-top: 3vh;
   padding-bottom: 4vh;
   text-align: left;
   /* margin: 5vh; */
@@ -150,7 +154,7 @@ h2 {
   box-shadow: 0 4px 8px 0 lightskyblue;
   text-align: center;
   padding: 2px;
-  background-color: linen;
+  background-color: #ffb236;
   margin: 1vh;
 }
 
@@ -175,7 +179,7 @@ h2 {
 }
 
 #about-div {
-  background-color: rgb(211, 201, 211);
+  background-color: #369eff;
   padding-bottom: 1vh;
 }
 

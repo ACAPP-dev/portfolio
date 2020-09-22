@@ -8,7 +8,7 @@ class Resume extends React.Component {
 
     render() {
         return (
-            <div  id='resume-container'>
+            <div  className='resume-container'>
                 
                 <iframe id='resume' src={resume} title="Andrew's Resume" />
             </div>
