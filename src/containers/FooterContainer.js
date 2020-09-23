@@ -16,10 +16,7 @@ export default class FooterContainer extends React.Component {
                 <a href='https://www.linkedin.com/in/acapp-web-dev' className='footer' target='_blank' rel="noopener noreferrer">
                     <img className='footer-img' src={Linkedin} alt='Linkedin'/>
                 </a>
-                <a href='mailto: acapp909@gmail.com' className='footer'>
-                    <img className='footer-img' src={Email} alt="Email" />
-                    <span id='footer-email'>acapp909@gmail.com</span>
-                </a>
+                
             
                 
 
