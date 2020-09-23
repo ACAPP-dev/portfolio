@@ -27,7 +27,7 @@ const About = () => {
                 < ProjectCard />
             </div>
             <div className='resume-container'>
-                <h4>Latest Resume</h4>
+                <h4>Latest Blog</h4>
                 <iframe id='resume' src={blog} title="Latest Blog Post" />
             </div>
         </div>

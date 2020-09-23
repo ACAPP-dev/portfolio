@@ -95,11 +95,19 @@ h2 {
 .footer {
   margin: auto;
   padding: 2px;
+  
+  vertical-align: center;
+  text-decoration: none;
 }
 
 .footer-img {
   height: 25px;
-  
+}
+
+#footer-email {
+  color: black;
+  margin: auto;
+  vertical-align: center;
 }
 
 #home-container {

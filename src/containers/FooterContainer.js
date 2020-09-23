@@ -18,9 +18,10 @@ export default class FooterContainer extends React.Component {
                 </a>
                 <a href='mailto: acapp909@gmail.com' className='footer'>
                     <img className='footer-img' src={Email} alt="Email" />
+                    <span id='footer-email'>acapp909@gmail.com</span>
                 </a>
             
-                <span className='footer'>Email: acapp909@gmail.com</span>
+                
 
                 <span className='footer'>Last Updated: September 2020</span>
             </div>
