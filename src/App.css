@@ -125,6 +125,7 @@ h2 {
 }
 
 .resume-container {
+  -webkit-overflow-scrolling:touch;
   /* display: flex;
   flex-direction: column; */
   /* margin: 5vh; */
