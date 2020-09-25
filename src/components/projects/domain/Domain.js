@@ -19,7 +19,7 @@ class Domain extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='project-div'>
                 <h2>Domain Search Using GoDaddy API (Ruby CLI)</h2>
                 <h4>December 2019</h4>
                 

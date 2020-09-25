@@ -19,7 +19,7 @@ class Slots extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='project-div'>
                 <h2>Slot Machine Javascript Based Web App</h2>
                 <h4>June 2020</h4>
                 

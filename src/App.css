@@ -129,6 +129,7 @@ h2 {
   flex-direction: column; */
   /* margin: 5vh; */
   padding-top: 2.5vh;
+  /* padding-bottom: 4vh; */
   background-color: black;
   /* padding: 10vh; */
   /* position: relative; */
@@ -163,6 +164,7 @@ h2 {
   padding-top: 3vh;
   padding-bottom: 4vh;
   text-align: left;
+  /* background: white; */
   /* margin: 5vh; */
   /* height: 85vh; */
 }
@@ -188,6 +190,13 @@ h2 {
   height: 25vh;
   display: block;
   margin: auto;
+}
+
+.project-div {
+  background: white;
+  text-align: left;
+  padding: 5vh;
+
 }
 
 #about-img {

@@ -19,7 +19,7 @@ class AutoDealer extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='project-div'>
                 <h2>Auto Dealer Website</h2>
                 <h4>April 2020</h4>
                 

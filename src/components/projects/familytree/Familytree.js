@@ -19,7 +19,7 @@ class Familytree extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='project-div'>
                 <h2>Familytree Web App</h2>
                 <h4>February 2020</h4>
                 

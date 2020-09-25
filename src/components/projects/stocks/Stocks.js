@@ -19,7 +19,7 @@ class Stocks extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='project-div'>
                 <h2>Stock Market Data Web App</h2>
                 <h4>August 2020</h4>
                 
