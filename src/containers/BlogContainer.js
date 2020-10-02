@@ -9,7 +9,7 @@ export default class BlogContainer extends React.Component {
     render() {
         return(
             <Fragment>
-            <h4>Blog Posts</h4>
+            
             <div className='blog-container'>
                 
                 <div id='sidebar-div'>

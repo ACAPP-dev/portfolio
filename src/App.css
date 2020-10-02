@@ -104,6 +104,7 @@ h2 {
 }
 
 #sidebar-div {
+  padding-top: 6vh;
   border: 1px solid black;
   display: flex;
   flex-direction: column;

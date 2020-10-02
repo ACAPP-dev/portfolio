@@ -6,13 +6,13 @@ const SideBar = () => {
 
     const generateCards = () => {
         return blogListing.map(blog => {
-            return blog.name
+            return < Cards key={blog.index} blog={blog} / >
         })
     }
 
     return (
         <div>
-            <h2>SideBar Component</h2>
+            <h2>Blog Posts</h2>
             {generateCards()}
         </div>
     )
