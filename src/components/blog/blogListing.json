@@ -1,0 +1,17 @@
+[{
+    "id": "1",
+    "name": "Introduction to Responsive Webpages",
+    "description": "Need",
+    "picture": "./stocks/stocks.png",
+    "link": "https://github.com/ACAPP-dev/stock-app.git",
+    "directory": "./projects/stocks"
+},{
+    "id": "2",
+    "name": "Tips for Hosting Your Own Website",
+    "description": "Short article on my experience setting up hosting for my portfolio site.",
+    "picture": "./slots/slots.png",
+    "link": "https://dev.to/acappdev/tips-for-hosting-your-own-website-2ip8",
+    "directory": "/projects/slots"
+}
+]
+
