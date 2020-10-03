@@ -6,8 +6,13 @@ import blog1 from '../images/blog-looping-in-javascript.pdf'
 
 export default class BlogContainer extends React.Component {
     
+    state = {
+        blogLink: ""
+    }
+
     handleBlog = link => {
-        return <h2>Returning Link {link}</h2>
+        console.log(link)
+        this.setState({blogLink: link})
     }
     
 
@@ -24,10 +29,11 @@ export default class BlogContainer extends React.Component {
                     <SideBar returnBlog={this.handleBlog} />
                 </div>
                 <div id='blog-div'>
-                    <div className='resume-container'>
-                        <iframe id='resume' src={blog1} title="Latest Blog Post" />
-                    </div>
-                    < Flatiron1 />
+                    
+                        
+                        <iframe id='blog-iframe' src={this.state.blogLink} title="Blog Post Display" />
+                    
+                    {/* < Flatiron1 /> */}
                 </div>
             </div>
             </Fragment>

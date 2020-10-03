@@ -3,7 +3,7 @@ import blogListing from './blogListing.json'
 import Cards from './Cards'
 
 const SideBar = (props) => {
-    console.log(props)
+    // console.log(props)
 
     const handleClick = link => {
         return props.returnBlog(link)
@@ -16,8 +16,8 @@ const SideBar = (props) => {
     }
 
     return (
-        <div>
-            <h2>Blog Posts</h2>
+        <div class='sidebar-div'>
+            <h2>Click on Card to View Blog Post</h2>
             {generateCards()}
         </div>
     )

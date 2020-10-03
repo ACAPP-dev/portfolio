@@ -1,9 +1,9 @@
 [{
     "id": "1",
     "name": "Introduction to Responsive Webpages",
-    "description": "Need",
+    "description": "Read about how to go about making websites that work well on mobile devices.",
     "picture": "./stocks/stocks.png",
-    "link": "https://github.com/ACAPP-dev/stock-app.git",
+    "link": "https://dev.to/acappdev/introduction-to-responsive-webpages-4l83",
     "directory": "./projects/stocks"
 },{
     "id": "2",

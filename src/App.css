@@ -100,16 +100,20 @@ h2 {
 .blog-container {
   display: grid;
   grid-template-columns: 25% 75%;
-  
 }
 
-#sidebar-div {
+#blog-iframe {
+  height: 100vh;
+  width: 100%;
   padding-top: 6vh;
+}
+#sidebar-div {
+  padding-top: 3vh;
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  background: yellow;
-  
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* background: yellow; */
+  color: white;
   
   height: 100vh;
   /* position: fixed; */
