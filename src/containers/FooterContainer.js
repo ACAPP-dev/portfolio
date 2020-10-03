@@ -1,7 +1,6 @@
 import React from 'react'
 import Github from '../images/GitHub-Mark-120px-plus.png'
 import Linkedin from '../images/LI-Logo.png'
-import Email from '../images/Email-Icon.png'
 
 export default class FooterContainer extends React.Component {
 

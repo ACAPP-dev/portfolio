@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import name from '../images/A.png'
 import Email from '../images/Email-Icon.png'
 
 export default class NavBarContainer extends React.Component {

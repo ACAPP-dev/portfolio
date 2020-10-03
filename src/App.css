@@ -106,11 +106,18 @@ h2 {
 }
 
 .blog-container {
-  display: grid;
-  grid-template-columns: 25% 75%;
+  /* display: grid; */
+  /* grid-template-columns: 25% 75%; */
   height: 100%;
+  width: 65%;
+  margin: auto;
   padding-top: 2.5vh;
   padding-bottom: 4vh;
+}
+
+.blog-page-link {
+  text-decoration: none;
+  color: white;
 }
 
 #blog-iframe {
@@ -120,6 +127,7 @@ h2 {
   padding-bottom: 0;
   margin: 0;
 }
+
 #sidebar-div {
   height: 100vh;
   padding-top: 3vh;

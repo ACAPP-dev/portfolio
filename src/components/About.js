@@ -19,7 +19,7 @@ const About = () => {
             <div id='about-div'>
                 <h2>Andrew Capp</h2>
                 <h4>Software Engineer Focused on JavaScript, React, and Ruby on Rails</h4>
-                <img id='about-img' src={andrewPhoto} alt='Andrew Profile Picture' />
+                <img id='about-img' src={andrewPhoto} alt='Andrew Profile' />
                 <p className='about-p'>I transitioned into programming after a thirty year career as director of finance at Hilton Hotels and recently graduated from my software engineering program at Flatiron School. I really enjoy the challenge of creating something useful and would love opportunities to utilize my coding skills and experience working as part of a team.  If you would like to reach out to me for opportunities my email address is: acapp909@gmail.com.</p>
                 <Link id='resume-link' to='/resume' exact>Resume</Link>
             </div>
@@ -30,7 +30,7 @@ const About = () => {
             <div><h4>Latest Blog</h4></div>
             <div className='about-div'>
                 < BlogCard blog={blogListing[0]} />
-                <a className='blog-link' href={blogListing[0].link} target='_blank'>View Blog in New Tab</a>
+                <a className='blog-link' href={blogListing[0].link} target='_blank' rel="noopener noreferrer">View Blog in New Tab</a>
                 {/* <iframe id='blog-iframe' src={blogListing[0].link} title="Blog Post Display" /> */}
             </div>
         </div>
