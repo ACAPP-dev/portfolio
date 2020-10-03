@@ -4,14 +4,17 @@ h2 {
 
 .App {
   background-color: black;
-  /* height: 100%; */
+  height: 100%;
+  margin: 1vh;
+  border: 2px solid blue;
 }
 
 
 .main, #root {
-  text-align: center;
+  /* text-align: center; */
   /* background-image: url("./images/Abstract-Background.png") */
-  /* height: 100%; */
+  background: black;
+  height: 100%;
   margin: 0px;
 }
 
@@ -100,22 +103,29 @@ h2 {
 .blog-container {
   display: grid;
   grid-template-columns: 25% 75%;
+  height: 100%;
+  padding-top: 2.5vh;
+  padding-bottom: 4vh;
 }
 
 #blog-iframe {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding-top: 6vh;
+  padding-bottom: 0;
+  margin: 0;
 }
 #sidebar-div {
   padding-top: 3vh;
+  padding-bottom: 0;
   border: 1px solid black;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
   /* background: yellow; */
   color: white;
   
-  height: 100vh;
+  /* height: 100%; */
   /* position: fixed; */
   /* z-index: 1; */
   /* padding-top: 5vh; */

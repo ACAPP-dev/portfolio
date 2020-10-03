@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 const Cards = props => {
     // console.log(props)
     
     const handleClick = () => {
-        return props.returnClick(props.blog.link)
+        return props.returnBlog(props.blog.link)
     }
 
     return(

@@ -1,17 +1,80 @@
 [{
-    "id": "1",
+    "id": "10",
+    "name": "Looping in JavaScript",
+    "description": "Knowledge of how to loop through objects as well as which type of loop to use in a particular situation is very important in order to be proficient in JavaScript. Following are five types of loops available and examples of when to use each.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://dev.to/acappdev/looping-in-javascript-2gla",
+    "date": "October 3, 2020"
+},{
+    "id": "9",
     "name": "Introduction to Responsive Webpages",
     "description": "Read about how to go about making websites that work well on mobile devices.",
     "picture": "./stocks/stocks.png",
     "link": "https://dev.to/acappdev/introduction-to-responsive-webpages-4l83",
-    "directory": "./projects/stocks"
+    "date": "October 2, 2020"
 },{
-    "id": "2",
-    "name": "Tips for Hosting Your Own Website",
+    "id": "8",
+    "name": "Tips for 3rd Party Website Hosting",
     "description": "Short article on my experience setting up hosting for my portfolio site.",
     "picture": "./slots/slots.png",
     "link": "https://dev.to/acappdev/tips-for-hosting-your-own-website-2ip8",
-    "directory": "/projects/slots"
+    "date": "September 25, 2020"
+},
+{
+    "id": "7",
+    "name": "Career Change at Age 50?",
+    "description": "I recently retired from an excellent hotel accounting career spanning almost 31 years. It may seem like a crazy decision with many years left until a traditional retirement age; not least due to a significant loss of income. There are several reasons for my decision and the timing of this change.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://acapp-dev.github.io/career_change_at_age_50",
+    "date": "October 15, 2019"
+},
+{
+    "id": "6",
+    "name": "Finishing My First Class: Ruby CLI Project",
+    "description": "It is now early December and I am about to complete my first class and project.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://acapp-dev.github.io/finishing_my_first_class_ruby_cli_project",
+    "date": "December 2, 2019"
+},
+{
+    "id": "5",
+    "name": "Second Project - Sinatra Family Tree Web App",
+    "description": "Hello! My project review from my first class went well and I’m happy to say that I was able to progress to my second class. It is now mid-February 2020 and I’m getting ready for another project review.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://acapp-dev.github.io/second_project_-_sinatra_family_tree_web_app",
+    "date": "February 13, 2020"
+},
+{
+    "id": "4",
+    "name": "Third Project - Auto Dealership Website with Ruby on Rails",
+    "description": "Hi everyone! It is the 4th week of the pandemic lockdown and I’m finishing my 3rd class with two more to go. Fortunately there is minimal disruption to our classes as we are 100% online.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://dev.to/acappdev/introduction-to-responsive-webpages-4l83",
+    "date": "April 16, 2020"
+},
+{
+    "id": "3",
+    "name": "JavaScript Project - Slot Machine",
+    "description": "My fourth class, JavaScript, focused on the front end user experience. So for my project I chose to make a game - a slot machine - with better odds so the player will generally win.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://acapp-dev.github.io/javascript_project_-_slot_machine",
+    "date": "June 12, 2020"
+},
+{
+    "id": "2",
+    "name": "Final Project - Stock Market App",
+    "description": "My final project with Flatiron Academy is almost done! I’m happy to say that I’ve learned a ton and really enjoyed the learning experience at Flatiron.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://dev.to/acappdev/introduction-to-responsive-webpages-4l83",
+    "date": "August 13, 2020"
+},
+{
+    "id": "1",
+    "name": "Reflections on Learning at Flatiron Academy",
+    "description": "After almost a year, my time at Flatiron Academy is coming to an end. Following are some of my thoughts about how things went.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://acapp-dev.github.io/reflections_on_learning_at_flatiron_academy",
+    "date": "August 14, 2020"
 }
 ]
 

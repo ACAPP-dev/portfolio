@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
-import SideBar from '../components/blog/SideBar'
+import blogListing from '../components/blog/blogListing.json'
+import Cards from '../components/blog/Cards'
 import Flatiron1 from '../components/blog/Flatiron1'
 
 import blog1 from '../images/blog-looping-in-javascript.pdf'
@@ -14,8 +15,13 @@ export default class BlogContainer extends React.Component {
         console.log(link)
         this.setState({blogLink: link})
     }
-    
 
+    generateCards = () => {
+        return blogListing.map(blog => {
+            return < Cards key={blog.index} returnBlog={this.handleBlog} blog={blog} / >
+        })
+    }
+    
     render() {
 
         
@@ -26,7 +32,8 @@ export default class BlogContainer extends React.Component {
             <div className='blog-container'>
                 
                 <div id='sidebar-div'>
-                    <SideBar returnBlog={this.handleBlog} />
+                    <h2>Click on Card to View Blog Post</h2>
+                    {this.generateCards()}
                 </div>
                 <div id='blog-div'>
                     

@@ -16,10 +16,7 @@ const SideBar = (props) => {
     }
 
     return (
-        <div class='sidebar-div'>
-            <h2>Click on Card to View Blog Post</h2>
             {generateCards()}
-        </div>
     )
 }
 
