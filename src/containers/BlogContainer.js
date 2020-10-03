@@ -5,15 +5,23 @@ import Flatiron1 from '../components/blog/Flatiron1'
 import blog1 from '../images/blog-looping-in-javascript.pdf'
 
 export default class BlogContainer extends React.Component {
+    
+    handleBlog = link => {
+        return <h2>Returning Link {link}</h2>
+    }
+    
 
     render() {
+
+        
+
         return(
             <Fragment>
             
             <div className='blog-container'>
                 
                 <div id='sidebar-div'>
-                    <SideBar />
+                    <SideBar returnBlog={this.handleBlog} />
                 </div>
                 <div id='blog-div'>
                     <div className='resume-container'>
