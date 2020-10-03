@@ -2,8 +2,9 @@ import React from 'react'
 import andrewPhoto from '../images/andrew-profile.jpeg'
 import {Link} from 'react-router-dom'
 import Cards from '../components/projects/Cards'
+import BlogCard from '../components/blog/Cards'
 import projectListing from '../components/projects/projectListing.json'
-import blog from '../images/blog-looping-in-javascript.pdf'
+import blogListing from '../components/blog/blogListing.json'
 
 const About = () => {
     
@@ -27,9 +28,10 @@ const About = () => {
                 < ProjectCard />
             </div>
             <div><h4>Latest Blog</h4></div>
-            <div className='resume-container'>
-                
-                <iframe id='resume' src={blog} title="Latest Blog Post" />
+            <div className='about-div'>
+                < BlogCard blog={blogListing[0]} />
+                <a className='blog-link' href={blogListing[0].link} target='_blank'>View Blog in New Tab</a>
+                {/* <iframe id='blog-iframe' src={blogListing[0].link} title="Blog Post Display" /> */}
             </div>
         </div>
     )
