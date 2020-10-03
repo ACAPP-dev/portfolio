@@ -20,7 +20,7 @@ export default class FooterContainer extends React.Component {
             
                 
 
-                <span className='footer'>Last Updated: September 2020</span>
+                <span className='footer'>Last Updated: October 2020</span>
             </div>
         )
     }
