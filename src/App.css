@@ -185,7 +185,7 @@ h2 {
   color: white;
   height: 100%;
   overflow: auto;
-  padding-top: 2.5vh;
+  padding-top: 4.5vh;
   padding-bottom: 6vh;
 }
 
@@ -240,8 +240,12 @@ h2 {
 }
 
 #about-div {
-  background-color: #369eff;
-  padding-bottom: 1vh;
+  /* background-color: #369eff; */
+  /* padding-bottom: 1vh; */
+  /* background-image: url('https://i.imgur.com/1l18YL8.jpg'); */
+  background-image: url('https://i.imgur.com/0dqdq3m.jpg');
+  background-size: cover;
+  /* color: black; */
 }
 
 .about-p {

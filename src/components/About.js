@@ -5,6 +5,7 @@ import Cards from '../components/projects/Cards'
 import BlogCard from '../components/blog/Cards'
 import projectListing from '../components/projects/projectListing.json'
 import blogListing from '../components/blog/blogListing.json'
+// import trees from 'https://i.imgur.com/1l18YL8.jpg'
 
 const About = () => {
     
@@ -16,7 +17,8 @@ const About = () => {
 
     return (
         <div className='about-container'>
-            <div id='about-div'>
+            <div id='about-div' class='card-div'>
+               
                 <h2>Andrew Capp</h2>
                 <h4>Software Engineer Focused on JavaScript, React, and Ruby on Rails</h4>
                 <img id='about-img' src={andrewPhoto} alt='Andrew Profile' />
