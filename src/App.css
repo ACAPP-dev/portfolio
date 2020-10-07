@@ -202,17 +202,21 @@ h2 {
 .card-div {
   box-shadow: 0 4px 8px 0 lightskyblue;
   text-align: center;
-  padding: 2px;
+  padding: 1vh;
   /* background-color: #ffb236; */
   background-color:  #369eff;
   margin: 1vh;
 }
 
-.card {
+.card-justify {
   padding-bottom: 1vh;
+  /* display: block; */
+  text-align: justify;
+
+}
+
+.card {
   display: block;
-
-
 }
 
 .card-img {
