@@ -15,7 +15,11 @@ export default class FooterContainer extends React.Component {
                 <a href='https://www.linkedin.com/in/acapp-web-dev' className='footer' target='_blank' rel="noopener noreferrer">
                     <img className='footer-img' src={Linkedin} alt='Linkedin'/>
                 </a>
-                
+                {/* <!-- GreenGeeks Seal Code --> */}
+                    <a href='https://my.greengeeks.com/seal/' className='footer' target='_blank' rel="noopener noreferrer">
+                        <img className='footer-img' src="https://static.websitehostserver.net/ggseal/Green_3.png" alt="Greengeeks Seal" />
+                    </a>
+                {/* <!-- End GreenGeeks Seal Code --></div> */}
             
                 
 

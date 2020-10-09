@@ -1,4 +1,12 @@
 [{
+    "id": "11",
+    "name": "Java: Why Have Abstract Classes?",
+    "description": "I’ve been learning Java recently and a new concept for me is the idea of abstract classes. While the concept is already kind of “abstract” (pun intended), what I don’t understand is why you would use an abstract class when you can just use a regular class or an interface.",
+    "picture": "./stocks/stocks.png",
+    "link": "https://dev.to/acappdev/java-why-have-abstract-classes-39ad",
+    "date": "October 9, 2020"
+},
+    {
     "id": "10",
     "name": "Looping in JavaScript",
     "description": "Knowledge of how to loop through objects as well as which type of loop to use in a particular situation is very important in order to be proficient in JavaScript. Following are five types of loops available and examples of when to use each.",
