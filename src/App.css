@@ -109,11 +109,11 @@ h2 {
   /* display: grid; */
   /* grid-template-columns: 25% 75%; */
   height: 100%;
-  width: 65%;
+  width: 85%;
   margin: auto;
   padding-top: 2.5vh;
   padding-bottom: 4vh;
-}
+  }
 
 .blog-page-link {
   text-decoration: none;
@@ -197,7 +197,9 @@ h2 {
   /* background: white; */
   /* margin: 5vh; */
   /* height: 85vh; */
-}
+  width: 85%;
+  margin: auto;
+  }
 
 .card-div {
   box-shadow: 0 4px 8px 0 lightskyblue;
@@ -206,6 +208,7 @@ h2 {
   /* background-color: #ffb236; */
   background-color:  #369eff;
   margin: 1vh;
+  
 }
 
 .card-justify {
