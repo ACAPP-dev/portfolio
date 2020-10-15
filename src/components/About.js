@@ -26,10 +26,10 @@ const About = () => {
                 <Link id='resume-link' to='/resume' exact>Resume</Link>
             </div>
             <div>
-                <h4>Latest Project</h4>
+                <h2>Latest Project</h2>
                 < ProjectCard />
             </div>
-            <div><h4>Latest Blog</h4></div>
+            <div><h2>Latest Blog</h2></div>
             <div className='about-div'>
                 < BlogCard blog={blogListing[0]} />
                 <a className='blog-link' href={blogListing[0].link} target='_blank' rel="noopener noreferrer">View Blog in New Tab</a>
