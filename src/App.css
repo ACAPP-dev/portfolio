@@ -10,8 +10,8 @@ h2 {
   /* border: 2px solid blue; */
 }
 
-
-.main, #root {
+.main,
+#root {
   /* text-align: center; */
   /* background-image: url("./images/Abstract-Background.png") */
   background: black;
@@ -27,7 +27,7 @@ h2 {
   top: 0;
   justify-content: space-around;
   background-color: #2a2a72;
-  
+
   background-image: linear-gradient(315deg, #2a2a72 0%, #369eff 74%);
 }
 
@@ -62,11 +62,11 @@ h2 {
 }
 
 .navbar-span {
-  padding-left: .5vh;
+  padding-left: 0.5vh;
 }
 
 .navbar-active {
-  color:black;
+  color: black;
 }
 
 #footer-div {
@@ -85,20 +85,18 @@ h2 {
 .footer {
   margin: auto;
   padding: 2px;
-  
+
   vertical-align: center;
   text-decoration: none;
 }
 
 .footer-img {
   height: 40px;
-  
 }
 
 #footer-email {
   color: black;
   margin: auto;
-  
 }
 
 .blog-div {
@@ -113,7 +111,7 @@ h2 {
   margin: auto;
   padding-top: 2.5vh;
   padding-bottom: 4vh;
-  }
+}
 
 .blog-page-link {
   text-decoration: none;
@@ -138,7 +136,7 @@ h2 {
   overflow: auto;
   /* background: yellow; */
   color: white;
-  
+
   /* height: 100%; */
   /* position: fixed; */
   /* z-index: 1; */
@@ -147,7 +145,6 @@ h2 {
   /* left: 0; */
   /* overflow-x: hidden; */
   /* padding-top: 10px; */
-
 }
 
 .resume-container {
@@ -164,7 +161,6 @@ h2 {
   /* overflow: hidden; */
   /* width: 95%; */
   height: 100vh;
-  
 }
 
 #resume {
@@ -189,6 +185,12 @@ h2 {
   padding-bottom: 6vh;
 }
 
+.about-container p {
+  background-color: black;
+  border: 1px solid black;
+  font-size: 1.5vh;
+}
+
 .project-container {
   /* padding: 5vh; */
   padding-top: 3vh;
@@ -199,23 +201,22 @@ h2 {
   /* height: 85vh; */
   width: 85%;
   margin: auto;
-  }
+}
 
 .card-div {
   box-shadow: 0 4px 8px 0 lightskyblue;
   text-align: center;
   padding: 1vh;
   /* background-color: #ffb236; */
-  background-color:  #369eff;
+  background-color: #369eff;
   margin: 1vh;
-  
+  border-radius: 10px;
 }
 
 .card-justify {
   padding-bottom: 1vh;
   /* display: block; */
   text-align: justify;
-
 }
 
 .card {
@@ -233,7 +234,6 @@ h2 {
   background: white;
   text-align: left;
   padding: 5vh;
-
 }
 
 #about-img {
@@ -246,7 +246,7 @@ h2 {
   /* background-color: #369eff; */
   /* padding-bottom: 1vh; */
   /* background-image: url('https://i.imgur.com/1l18YL8.jpg'); */
-  background-image: url('https://i.imgur.com/0dqdq3m.jpg');
+  background-image: url("https://i.imgur.com/0dqdq3m.jpg");
   background-size: cover;
   /* color: black; */
 }
@@ -254,13 +254,12 @@ h2 {
 .about-p {
   margin-left: 5vh;
   margin-right: 5vh;
-  padding-bottom: .5vh;;
+  padding-bottom: 0.5vh;
   text-align: justify;
 }
 
 .blog-link {
   color: white;
-
 }
 
 #resume-link {
@@ -270,10 +269,8 @@ h2 {
   color: black;
   background: whitesmoke;
   text-decoration: none;
-
 }
 
 .icon {
   height: 2.5vh;
-  
 }

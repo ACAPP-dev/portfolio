@@ -1,5 +1,26 @@
 [{
-    "id": "1",
+    "id": "13",
+    "name": "Barker",
+    "description": "Barker is a full stack web application that enables shelters to input dogs available for adoption. These dogs can be viewed, ‘liked’, and ‘disliked’ by users interested in adopting a dog.",
+    "picture": "./Revature/Project2/home.png",
+    "github": "https://github.com/ACAPP-dev/BarkerFrontEnd",
+    "directory": "./projects/Revature/Project2"
+},{
+    "id": "14",
+    "name": "The front-end user interface for the Adeptus Administratum API developed by Karl Matthes",
+    "description": "The Adeptus Administratum is the administrative and bureaucratic heart of the Imperium of Man, managing thousands of worlds, billions of soldiers, and trillions of citizens.",
+    "picture": "./Revature/Project1/home.png",
+    "github": "https://github.com/ACAPP-dev/AdeptusAdministratumFrontend",
+    "directory": "./projects/Revature/Project1"
+},{
+    "id": "15",
+    "name": "Web Service / API to keep track of animals available for adoption in a (NO KILL!!) shelter.",
+    "description": "First backend API written in Java. Uses Servlets, JDBC, and a PostgreSQL database.",
+    "picture": "./Revature/Project0/DB_Schema.jpg",
+    "github": "https://github.com/ACAPP-dev/AndrewCappProject0AnimalShelter",
+    "directory": "./projects/Revature/Project0"
+},{
+    "id": "16",
     "name": "Stock Market Data Web App",
     "description": "Problem: Most stock apps use standard time periods (day, week, month, year) to view stock price trends. This can make it difficult to spot and track price movement over short term periods. Solution: 'Andrew's Stock App' allows the user to view candlestick charts over custom time periods, create and maintain watchlists, and view stock price data over a user specified three day period.",
     "picture": "./stocks/stocks.png",
@@ -7,7 +28,7 @@
     "video": "https://youtu.be/4omxv2ArO0c",
     "directory": "./projects/stocks"
 },{
-    "id": "2",
+    "id": "17",
     "name": "Slot Machine Javascript Based Web App",
     "description": "Play a 'realistic' slot machine using your browser.  This slot machine has much better odds than a traditional slot machine in Las Vegas.  See how high you can get your balance!",
     "picture": "./slots/slots.png",
@@ -15,7 +36,7 @@
     "video": "https://youtu.be/9v5WjbOkbS4",
     "directory": "/projects/slots"
 },{
-    "id": "3",
+    "id": "18",
     "name": "Auto Dealer Website",
     "description": "Website to view an auto dealer's vehicle inventory and make sales or service appointments at that dealership.",
     "picture": "./auto-dealer/autodealer.png",
@@ -23,7 +44,7 @@
     "video": "https://youtu.be/GnppcsiBYc4",
     "directory": "/projects/auto-dealer"
 },{
-    "id": "4",
+    "id": "19",
     "name": "Family Tree Web App",
     "description": "Create your own family tree and view relationships using flexible and easy to use forms!",
     "picture": "./familytree/familytree.png",
@@ -31,7 +52,7 @@
     "video": "https://youtu.be/QYip6aQGmZc",
     "directory": "/projects/familytree"
 },{
-    "id": "5",
+    "id": "20",
     "name": "Domain Search Using GoDaddy API",
     "description": "This Ruby Gem will search godaddy.com for website domain availability and pricing using the GoDaddy Developer API. You can search for a specific domain name or get a list of domains related to any keyword. If you search for a specific domain and it is not available for purchase, a list of similar domain names will automatically appear.",
     "picture": "./domain/domain.png",
